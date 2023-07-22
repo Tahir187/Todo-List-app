@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(59, 106, 106);
+}
+
+.main-div {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-div {
+  height: 70vh;
+  width: 60%;
+  background-color: rgb(125, 148, 169);
+  box-shadow: 8px 4px 15px rgba(0,0,0,0.5);
+  overflow-y: auto;
+}
+
+.child-div h1 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+.addItems {
+  margin: 30px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+.addItems input {
+  font-size: 13px;
+  padding: 3px;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+}
+.addItems .add-btn{
+    font-size: 22px;
+    cursor: pointer;
+    width:40px;
+    height:40px;
+    padding:3px;
+    border-radius:50%;
+    border:none;
+    color: darkgreen;
+    margin-left: 5px;
+}
+
+.eachItem{
+    background:#fff;
+    box-shadow:1px 2px 3px rgba(0,0,0,0.8);
+    width:70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.del-btn{
+    font-size: 22px;
+    cursor: pointer;
+    width:40px;
+    height:40px;
+    padding:3px;
+    border-radius:50%;
+    border:none;
+    color: crimson;
+    background: none;
+}
+
+.removeItems {
+    display: flex;
+    justify-content: center;
+}
+
+.remove-btn{
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
